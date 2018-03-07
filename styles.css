@@ -1,0 +1,222 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar-default .navbar-collapse{
+    height: 85px !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+    padding-top: 40px;
+    padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+.navbar-default .navbar-nav>li:last-child{
+	padding-top: 40px;
+	padding-left: 7px;	
+	padding-right: 45px;
+}
+.inner-img{
+	width:100%;	
+	height: 715px;	
+	filter: brightness(30%);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;		
+}
+.navbar-default {	
+    background-color:transparent !important;
+	border: none !important;
+	padding-top: 10px;
+}
+header{
+	position: relative;
+	top: 80px;
+	z-index: 11;
+	margin-top: -97px;
+}
+#mySidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;	
+}
+.sidenav a {
+    padding: 8px 15px 8px 32px;
+	margin: 3px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #28b470;
+	text-align: right;
+    display: block;
+    transition: 0.3s;
+	background-color: #faf6f6;
+	box-shadow: 5px 0px inset black;
+	}
+.sidenav a:hover {	
+    background-color: #28b470;
+	color: #fff;
+	text-decoration: none;
+}
+.sidenav .closebtn {
+	background-color: #fff;
+	color: #28b470;
+	position: absolute;
+    top:0;
+	right: 15px;
+    font-size: 30px;
+	padding-right: 20px;
+    margin-left: 50px;
+	text-decoration: none;
+}
+.closebtn:hover{
+	background-color: #fff;
+}
+.navbar .navbar-header p{
+	font-size: 30px;
+	padding-top: 25px;
+	margin-bottom: 0px !important;
+	color: #fff;
+	text-decoration-style: none;
+}
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h2 {
+    font-size: 2em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.hero p{
+	padding: 10px 0px;
+}
+.main-body .carousel .item button{
+	background:#28b470;
+	border-radius: 0;
+	width: auto;	
+}
+.main-body .img-container{
+	width: auto;
+	height: 340px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.main-body .contain{
+	height: 500px;
+	position: relative;
+	overflow: visible;
+	border-radius: 0;	
+	background-color: #fff;
+	margin-top:-11%;
+	padding: 12px 0px;
+	border: 1px solid #fff;	
+}
+.right{
+	margin-left: -4%;
+}
+.main-body .desc{
+	background-color: #28b470;
+	width:107%;
+	height: 300px;
+	margin-top: 18px;	
+	padding: 30px 20px;
+	color: #fff;
+}
+.main-body .desc button{
+	background:#fff;
+	width: auto;	
+	color: #28b470;
+	height: auto;
+}
+.time{
+	color: palevioletred;
+}
+.read-link{
+	color: #28b470;
+}
+.underline{
+	border-bottom: 1.5px solid #28b470;
+	width: 23px;
+}
+.btn-hero{
+	background-color:#28b470;
+	color: #fff;
+}
+footer{
+	background-color:#28b470;	
+	margin-top: 80px;
+	vertical-align: middle;	
+}
+footer li{
+	list-style-type: none;
+	color: #fff;
+	margin: auto;	
+	display: inline-block;
+}
+footer ul{
+	padding: 20px 0px;
+	margin-bottom: 0px;
+}
+@media only screen and (max-width : 768px) {
+	.main-body .desc{	
+	width:100%;
+}	
+	.right{
+	margin-left: 0%;
+	margin-top: -6%
+}
+.navbar .navbar-header p{
+	font-size: 2rem;
+	text-decoration-style: none;
+	display: inline-block;
+}
+.navbar-toggle{
+	margin-top: 20px !important;
+	border: none !important;	
+	}
+header{
+	position: relative;
+	top: 0px;
+	z-index: 11;
+	margin-top: 0px;
+	background: #000 !important;
+}.navbar {   
+    margin-bottom: 0px !important;
+	padding-bottom: 15px;
+	z-index: 13;
+}
+.navbar-nav {
+    margin: -20px -5px;
+    display: inline-flex;
+}
+.navbar-default .navbar-nav>li>a {    
+    padding-top: 5px;    
+    padding-left: 5px;
+}
+#navbar{
+	height: 100px !important;
+}
+.navbar-default .navbar-nav>li:last-child {
+   	margin-top: 40px;
+    padding-top: 10px;
+    position: absolute; 
+}
+}
