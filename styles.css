@@ -57,7 +57,6 @@ header{
     display: block;
     transition: 0.3s;
 	background-color: #faf6f6;
-	box-shadow: 5px 0px inset black;
 	}
 .sidenav a:hover {	
     background-color: #28b470;
@@ -71,7 +70,8 @@ header{
     top:0;
 	right: 15px;
     font-size: 30px;
-	padding-right: 20px;
+	padding-right: 10px;
+    padding-left: 10px;
     margin-left: 50px;
 	text-decoration: none;
 }
@@ -129,12 +129,21 @@ header{
 	padding: 12px 0px;
 	border: 1px solid #fff;	
 }
+#carousel-example-generic1 .glyphicon { 
+    top: -50px !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff !important;
+    left: 40px !important;
+    padding: 10px !important;
+    background: mediumseagreen !important;
+}
 .right{
 	margin-left: -4%;
 }
 .main-body .desc{
 	background-color: #28b470;
-	width:107%;
+	width:108%;
 	height: 300px;
 	margin-top: 18px;	
 	padding: 30px 20px;
