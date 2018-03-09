@@ -119,6 +119,10 @@ header{
 	background-repeat: no-repeat;
 	background-position: center;
 }
+.main-body h4{
+	color:#28b470;
+	font-weight: 300;
+}
 .main-body .contain{
 	height: 500px;
 	position: relative;
@@ -170,21 +174,67 @@ header{
 	color: #fff;
 }
 footer{
+	position: relative;
+	padding: 25px 20px;
 	background-color:#28b470;	
 	margin-top: 80px;
-	vertical-align: middle;	
-}
-footer li{
-	list-style-type: none;
-	color: #fff;
-	margin: auto;	
 	display: inline-block;
+	color: #fff;
+	}
+footer p{	
+	display: inline-block;
+	margin:auto !important;
 }
-footer ul{
-	padding: 20px 0px;
-	margin-bottom: 0px;
+footer .footer-right{
+	float: right;
 }
-@media only screen and (max-width : 768px) {
+/* ABOUT US*/
+.main-body .img-container1 {
+    width: 100%;
+    height: 390px;
+	margin-left: -2%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-body .contain1{
+    height: 500px;
+    position: relative;
+    overflow: visible;
+    border-radius: 0;
+    background-color: #fff;
+    margin-top: -40%;
+    padding: 12px 0px;
+    border: 1px solid #fff;
+}
+/**/
+/*GALLERY*/
+.inner-img-gallery{
+	width: 100%;
+	height: 175px;
+	position: relative;	
+	background-position: center;
+	background-repeat: no-repeat;		
+}
+
+.main-body .box{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	background-color: #28b470;
+	color: #fff;
+	position:sticky;
+	
+}
+.img-wrapper{
+	text-align: center;
+	filter: brightness(50%);
+}
+.img-wrapper:hover{
+	filter: brightness(100%);
+}
+/**/
+@media only screen and (max-width : 767px) {
 	.main-body .desc{	
 	width:100%;
 }	
@@ -228,4 +278,30 @@ header{
     padding-top: 10px;
     position: absolute; 
 }
+#carousel-example-generic1 .glyphicon { 
+   border: 1px solid;
+}
+footer {
+	height: 90px;
+	margin-top: 20px;
+	display: relative;
+    display: block;
+    text-align: center;
+    padding: 20px 20px 30px 20px;
+}
+footer .footer-right{
+	float: none;
+	position: absolute;
+	padding-top: 5px;
+	display: block;	
+	text-align: center;
+	right: 0px;
+	left: 0px;
+}
+/*ABOUT US MEDIA QUERIES*/
+.main-body .img-container1 {
+  	margin-left: 0px;
+	}
+/**/
+
 }
